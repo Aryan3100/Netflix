@@ -1,0 +1,57 @@
+
+.net{
+    color: red;
+   font-size: 40px;
+   height: 20vh;
+
+   
+   
+}
+
+.head{
+    position: absolute;
+    display: flex ;
+    align-items:center;
+    justify-content: space-between;
+    width: 90vw;
+    height: 20vh;
+    padding-left: 40px;
+    padding-right: 60px;
+    background: linear-gradient(black,transparent);
+  
+   
+}
+.bt{
+    
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 20vh;
+      width: 20vw;
+      
+}
+.slec{
+     height: 6vh;
+     width: 10vw;
+     border-radius: 5px;
+     font-size: 16px;
+     /* align-items: center; */
+     color: rgb(255, 255, 255);
+     background: #0000004d;
+     border-style: solid;
+     border-color: rgb(255, 255, 255);
+     padding: 5px;
+    
+}
+
+.but{
+        height: 6vh;
+        width: 7vw;
+        border-radius: 5px;
+        cursor: pointer;
+        background: red;
+        border: none;
+        font-weight: bold;
+        color: aliceblue;
+        font-size: 13px;
+}
