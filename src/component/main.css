@@ -1,0 +1,52 @@
+*{
+ margin: 0;
+ padding: 0;   
+}
+.god{
+     
+    position: absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0;  
+}
+.logo{
+  background-blend-mode:darken;
+  width: 30vh;
+}
+.par{
+    font-size: 17px;
+    max-width: 600px;
+  
+}
+.new{
+    height: 39px;
+    width: 110px;
+    font-size: 14px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+.wen{
+    height: 39px;
+    width: 110px;
+    font-size: 14px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.452);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.bann{
+    
+     width:100%;
+     mask-image: linear-gradient(to right ,transparent, black 75%);
+
+     z-index: -1;
+    background:rgba(0, 0, 0, 0.653);
+    
+}
+/* .god{
+
+} */
+

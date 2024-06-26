@@ -46,6 +46,7 @@ input{
   border-style:solid;
   padding-left: 20px;
   font-size: 20px;
+  color: #ffffff;
  border-color: #ffffff;
   border-radius: 5px;
 }
@@ -59,4 +60,15 @@ button{
   color: #ffffff;
   font-weight: bolder;
   border-style: none;
+}
+.shadow{
+   
+  height: 100vh;
+  width: 100vw;
+  background-color: #00000095;
+}
+span{
+  height: 7vh;
+  width: 100vw;
+  background: white;
 }

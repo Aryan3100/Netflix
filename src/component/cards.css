@@ -1,0 +1,20 @@
+.card {
+    z-index: 20;
+    display: flex;
+    overflow-x: scroll; 
+    }
+    .card::-webkit-scrollbar{
+        display: none;
+    }
+.im{
+    height: 300px;
+    width: 200px;
+    margin-right: 20px;
+}
+.he{
+    margin-top:12px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;  
+}
+

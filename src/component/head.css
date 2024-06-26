@@ -1,0 +1,32 @@
+.neta{
+    color: red;
+    font-size: 40px;
+    height: 20vh;
+}
+.heada{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    
+    width: 90vw;
+    height: 10vh;
+    z-index: 10;
+
+    padding-left: 40px;
+    padding-right: 82px;
+    background: linear-gradient(black, transparent);
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin-top: 20px;
+    cursor: pointer;
+  
+}
+.lis{
+    margin-left: 50px;
+    color: rgb(194, 194, 194);
+    list-style: none;
+    font-size: 14px;
+}

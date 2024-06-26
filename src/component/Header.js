@@ -2,8 +2,21 @@ import React from 'react'
 import ne from '../netflix.jpg'
 
 import './header.css'
+import Banner from './Banner'
+import { useNavigate } from 'react-router-dom'
 
 const Header = () => {
+ 
+  const navi = useNavigate();
+
+  function handle(){
+    navi ('/login')
+  }
+
+  const lang = [{id:1 , name:'English' }
+    ,{id:2, name:'Hindi'}
+  ]
+
   return (
     <div>
         <div className='head'>
@@ -11,20 +24,22 @@ const Header = () => {
     
         <div className='bt'>
             <select className='slec'>
-                <option>
-                    English
-                </option>
-                <option>
-                    Hindi
-                </option>
+               {  lang.map((item )=>{
+                    return(
+                        <option key={item.id}>{item.name}</option>
+                    )
+                })}
             </select>
-            <button className='but'>
+            <button onClick={handle} className='but'>
                 Sing In
             </button>
         </div>
         </div>
+        
     </div>
+    
   )
+
 }
 
 export default Header
